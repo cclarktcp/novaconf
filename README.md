@@ -1,0 +1,2 @@
+# novaconf
+python configuration tool
