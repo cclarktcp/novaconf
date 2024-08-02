@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "novaconf"
+version = "0.1.0"
+description = ""
+authors = ["Caleb Clark <cclarktcp@protonmail.com>"]
+readme = "README.md"
+license = "LICENSE"
+repository = "https://github.com/cclarktcp/novaconf"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

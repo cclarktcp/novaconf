@@ -1,0 +1,5 @@
+"""novaconf
+
+configuration toolkit
+
+"""
