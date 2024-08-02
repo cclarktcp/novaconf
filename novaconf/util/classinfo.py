@@ -223,3 +223,4 @@ class DataClassInfo:
                 req.append(field)
 
         return req, opt
+
