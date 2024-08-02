@@ -111,7 +111,7 @@ class DataClassInfo:
 
     @property
     def required_fields(self) -> list[Field]:
-        """get required fields (those with no default)
+        """get required fields (those with no default value)
 
         Returns:
             list[Field]: list of required fields
@@ -126,7 +126,7 @@ class DataClassInfo:
     
     @property
     def optional_fields(self) -> list[Field]:
-        """get optional fields
+        """get optional fields (those with a default value)
 
         Returns:
             list[Field]: list of optional fields
